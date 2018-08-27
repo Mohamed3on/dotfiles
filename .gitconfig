@@ -9,6 +9,12 @@
 	# Push with force but gently
 	pushf = "push --force-with-lease"
 
+	# empty commit
+	empty = "commit --amend --no-edit"
+
+	# prunes tracking branches not on the remote
+	prune = "git remote prune origin"
+	
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
