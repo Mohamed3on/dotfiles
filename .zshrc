@@ -102,14 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Github token
-export GITHUB_TOKEN="736f0bac0acef42b8007659a8ca7b535438b506c"
-
-export PATH=$PATH:/opt/hellofresh/bin
-
-export ANSIBLE_AWS_KEYPAIR="moun"
-export ANSIBLE_VAULT_PASSWORD_FILE=/Users/mohamed.oun/.vpass
-
 export KUBECONFIG=/Users/mohamed.oun/.kube/config:/Users/mohamed.oun/.kube/eksconfig
 
 
@@ -122,4 +114,4 @@ alias cat='bat'
 alias python='python3'
 alias pip='pip3'
 alias dev='npm run dev'
-alias please='sudo $(fc -ln -1)
+alias please='sudo $(fc -ln -1)'
